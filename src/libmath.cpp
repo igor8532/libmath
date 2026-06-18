@@ -32,7 +32,7 @@ namespace libmath
 	{
 		int c = 1;
 
-		#pragma unroll
+		#pragma unroll 5
 		for (int i = 0; i < b; ++i)
 		{
 			c = c * a;
